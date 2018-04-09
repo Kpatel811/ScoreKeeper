@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">NFL Score Keeper</string>
+    <string name="touchdown_Six">+6 TOUCHDOWN</string>
+    <string name="field_Goal">+3 FIELD GOAL</string>
+    <string name="safety_Conversion">+2 SAFETY/CONVERSION</string>
+    <string name="extra_Point">+1 EXTRA POINT</string>
+    <string name="team_A_Name">Bears</string>
+    <string name="team_B_Name">Packers</string>
+    <string name="reset">Reset</string>
 </resources>

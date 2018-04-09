@@ -10,10 +10,18 @@ public class MainActivity extends AppCompatActivity {
     int scoreTeamA = 0;
     int scoreTeamB = 0;
 
+    TextView scoreViewTeamA;
+    TextView scoreViewTeamB;
+
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        scoreViewTeamA = (TextView) findViewById(R.id.team_a_score);
+        scoreViewTeamB = (TextView) findViewById(R.id.team_b_score);
         displayForTeamA(scoreTeamA);
         displayForTeamB(scoreTeamB);
     }
@@ -67,16 +75,16 @@ public class MainActivity extends AppCompatActivity {
      */
 
     public void displayForTeamA(int score) {
-        TextView scoreView = (TextView) findViewById(R.id.team_a_score);
-        scoreView.setText(String.valueOf(score));
+        //TextView scoreView = (TextView) findViewById(R.id.team_a_score);
+        scoreViewTeamA.setText(String.valueOf(score));
     }
 
     /**
      * Displays the given score for Team B.
      */
     public void displayForTeamB(int score) {
-        TextView scoreView = (TextView) findViewById(R.id.team_b_score);
-        scoreView.setText(String.valueOf(score));
+        //TextView scoreView = (TextView) findViewById(R.id.team_b_score);
+        scoreViewTeamB.setText(String.valueOf(score));
     }
     /**
      * Increase the score for team B by 6 points

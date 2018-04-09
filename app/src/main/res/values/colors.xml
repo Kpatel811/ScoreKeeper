@@ -3,4 +3,12 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="background_One">#FFFFFF</color>
+    <color name="color_Text_One">#FFFFFF</color>
+    <color name="background_Button">#00123F</color>
+    <color name="background_Button_Two">#1A342D</color>
+    <color name="background_Button_Reset">#FF9800</color>
+    <color name="score_Text">#000000</color>
+    <color name="team_A_Text"> #ED6322</color>
+    <color name="team_B_Text"> #FDB815</color>
 </resources>

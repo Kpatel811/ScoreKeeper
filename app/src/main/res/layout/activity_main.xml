@@ -7,7 +7,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@android:color/background_light">
+        android:background="@color/background_One">
 
 
         <LinearLayout
@@ -27,12 +27,12 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
                     android:gravity="center_horizontal"
-                    android:paddingTop="16dp"
-                    android:paddingBottom="0dp"
-                    android:text="Bears"
+                    android:paddingTop="@dimen/layout_paddingTop_One"
+                    android:paddingBottom="@dimen/layout_paddingBottom_One"
+                    android:text="@string/team_A_Name"
                     android:textStyle="bold"
-                    android:textColor="#ED6322"
-                    android:textSize="22sp" />
+                    android:textColor="@color/team_A_Text"
+                    android:textSize="@dimen/text_Size_One" />
 
                 <ImageView
                     android:layout_width="100dp"
@@ -46,61 +46,61 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
                     android:gravity="center_horizontal"
-                    android:paddingBottom="24dp"
-                    android:textColor="#000000"
-                    android:textSize="56sp"
+                    android:paddingBottom="@dimen/layout_paddingBottom_Two"
+                    android:textColor="@color/score_Text"
+                    android:textSize="@dimen/text_Size_Two"
                     android:freezesText="true"/>
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
-                    android:layout_marginTop="8dp"
-                    android:textColor="@android:color/white"
+                    android:layout_marginLeft="@dimen/layout_marginLeft_One"
+                    android:layout_marginRight="@dimen/layout_marginRight_One"
+                    android:layout_marginTop="@dimen/layout_marginTop_Two"
+                    android:textColor="@color/color_Text_One"
                     android:onClick="addSixForTeamA"
-                    android:text="+6 Touchdown"
-                    android:background="#00123F"/>
+                    android:text="@string/touchdown_Six"
+                    android:background="@color/background_Button"/>
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
-                    android:layout_marginTop="8dp"
-                    android:textColor="@android:color/white"
+                    android:layout_marginLeft="@dimen/layout_marginLeft_One"
+                    android:layout_marginRight="@dimen/layout_marginRight_One"
+                    android:layout_marginTop="@dimen/layout_marginTop_Two"
+                    android:textColor="@color/color_Text_One"
                     android:onClick="addThreeForTeamA"
-                    android:background="#00123F"
-                    android:text="+3 Field Goal" />
+                    android:background="@color/background_Button"
+                    android:text="@string/field_Goal" />
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="@dimen/layout_marginLeft_One"
+                    android:layout_marginRight="@dimen/layout_marginRight_One"
+                    android:layout_marginTop="@dimen/layout_marginTop_Two"
                     android:onClick="addTwoForTeamA"
-                    android:textColor="@android:color/white"
-                    android:background="#00123F"
-                    android:text="+2 Safety/conversion"/>
+                    android:textColor="@color/color_Text_One"
+                    android:background="@color/background_Button"
+                    android:text="@string/safety_Conversion"/>
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="@dimen/layout_marginLeft_One"
+                    android:layout_marginRight="@dimen/layout_marginRight_One"
+                    android:layout_marginTop="@dimen/layout_marginTop_Two"
                     android:onClick="addOneForTeamA"
-                    android:textColor="@android:color/white"
-                    android:background="#00123F"
-                    android:text="+1 Extra Point"/>
+                    android:textColor="@color/color_Text_One"
+                    android:background="@color/background_Button"
+                    android:text="@string/extra_Point"/>
             </LinearLayout>
 
             <View
                 android:layout_width="1dp"
                 android:layout_height="match_parent"
-                android:layout_marginTop="16dp"
-                android:background="@android:color/darker_gray"></View>
+                android:layout_marginTop="@dimen/layout_marginTop_One"
+                android:background="@color/color_Text_One"></View>
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -115,12 +115,12 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
                     android:gravity="center_horizontal"
-                    android:paddingTop="16dp"
-                    android:paddingBottom="0dp"
+                    android:paddingTop="@dimen/layout_paddingTop_One"
+                    android:paddingBottom="@dimen/layout_paddingBottom_One"
                     android:textStyle="bold"
-                    android:textColor="#FDB815"
-                    android:textSize="22sp"
-                    android:text="Packers" />
+                    android:textColor="@color/team_B_Text"
+                    android:textSize="@dimen/text_Size_One"
+                    android:text="@string/team_B_Name" />
 
                 <ImageView
                     android:layout_width="100dp"
@@ -134,54 +134,54 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
                     android:gravity="center_horizontal"
-                    android:paddingBottom="24dp"
-                    android:textColor="#000000"
-                    android:textSize="56sp"
+                    android:paddingBottom="@dimen/layout_paddingBottom_Two"
+                    android:textColor="@color/score_Text"
+                    android:textSize="@dimen/text_Size_Two"
                     android:freezesText="true"/>
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
-                    android:layout_marginTop="8dp"
-                    android:textColor="@android:color/white"
+                    android:layout_marginLeft="@dimen/layout_marginLeft_One"
+                    android:layout_marginRight="@dimen/layout_marginRight_One"
+                    android:layout_marginTop="@dimen/layout_marginTop_Two"
+                    android:textColor="@color/color_Text_One"
                     android:onClick="addSixForTeamB"
-                    android:text="+6 Touchdown"
-                    android:background="#1A342D"/>
+                    android:text="@string/touchdown_Six"
+                    android:background="@color/background_Button_Two"/>
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
-                    android:layout_marginTop="8dp"
-                    android:textColor="@android:color/white"
-                    android:background="#1A342D"
+                    android:layout_marginLeft="@dimen/layout_marginLeft_One"
+                    android:layout_marginRight="@dimen/layout_marginRight_One"
+                    android:layout_marginTop="@dimen/layout_marginTop_Two"
+                    android:textColor="@color/color_Text_One"
+                    android:background="@color/background_Button_Two"
                     android:onClick="addThreeForTeamB"
-                    android:text="+3 Field Goal" />
+                    android:text="@string/field_Goal" />
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
-                    android:layout_marginTop="8dp"
-                    android:textColor="@android:color/white"
-                    android:background="#1A342D"
+                    android:layout_marginLeft="@dimen/layout_marginLeft_One"
+                    android:layout_marginRight="@dimen/layout_marginRight_One"
+                    android:layout_marginTop="@dimen/layout_marginTop_Two"
+                    android:textColor="@color/color_Text_One"
+                    android:background="@color/background_Button_Two"
                     android:onClick="addTwoForTeamB"
-                    android:text="+2 Safety/conversion"/>
+                    android:text="@string/safety_Conversion"/>
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
-                    android:layout_marginTop="8dp"
-                    android:textColor="@android:color/white"
-                    android:background="#1A342D"
+                    android:layout_marginLeft="@dimen/layout_marginLeft_One"
+                    android:layout_marginRight="@dimen/layout_marginRight_One"
+                    android:layout_marginTop="@dimen/layout_marginTop_Two"
+                    android:textColor="@color/color_Text_One"
+                    android:background="@color/background_Button_Two"
                     android:onClick="addOneForTeamB"
-                    android:text="+1 Extra Point"/>
+                    android:text="@string/extra_Point"/>
             </LinearLayout>
 
 
@@ -192,13 +192,13 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="8dp"
-            android:layout_marginLeft="24dp"
+            android:layout_marginBottom="@dimen/layout_marginBottom_One"
+            android:layout_marginLeft="@dimen/layout_marginLeft_One"
             android:textColor="@android:color/white"
-            android:layout_marginRight="24dp"
+            android:layout_marginRight="@dimen/layout_marginRight_One"
             android:onClick="resetScore"
-            android:background="@android:color/holo_orange_light"
-            android:text="Reset" />
+            android:background="@color/background_Button_Reset"
+            android:text="@string/reset" />
 
     </RelativeLayout>
 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_marginLeft_One">24dp</dimen>
+    <dimen name="layout_marginTop_One">16dp</dimen>
+    <dimen name="layout_marginTop_Two">8dp</dimen>
+    <dimen name="layout_marginRight_One">24dp</dimen>
+    <dimen name="layout_marginBottom_One">8dp</dimen>
+    <dimen name="layout_paddingTop_One">16dp</dimen>
+    <dimen name="layout_paddingBottom_One">0dp</dimen>
+    <dimen name="layout_paddingBottom_Two">24dp</dimen>
+    <dimen name="text_Size_One">22sp</dimen>
+    <dimen name="text_Size_Two">56sp</dimen>
+</resources>
